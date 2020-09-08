@@ -1,0 +1,6 @@
+#! /bin/bash
+# Git Hard Reset Fork
+
+git pull upstream master
+git reset --hard upstream/master
+git push origin master
