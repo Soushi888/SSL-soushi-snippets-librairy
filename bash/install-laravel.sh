@@ -1,5 +1,6 @@
 #! /bin/bash
 # Git Hard Reset Fork
+
 php -r "file_exists('.env') || copy('.env.example', '.env');"
 composer install
 php artisan key:generate
