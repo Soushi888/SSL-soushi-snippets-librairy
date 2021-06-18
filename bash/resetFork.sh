@@ -1,6 +1,6 @@
 #! /bin/bash
 # Git Hard Reset Fork
-git_url=https://github.com/sam-jc-vlad-sach/vino_etu
+git_url=https://git.yourdomain.com/your/git
 
 git remote add upstream $git_url
 
