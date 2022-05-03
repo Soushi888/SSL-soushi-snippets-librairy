@@ -17,7 +17,9 @@ function PokemonProvider({children}) {
     return await request.json();
   }
 
-  return <PokemonContext.Provider value={{pokemons, getPokemons, getPokemon}}>{children}</PokemonContext.Provider>;
+  return <PokemonContext.Provider value={{pokemons, getPokemons, getPokemon}}>
+    {children}
+  </PokemonContext.Provider>;
 }
 
 export default PokemonProvider;
